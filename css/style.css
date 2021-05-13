@@ -1,0 +1,59 @@
+.container {
+  width: 80%;
+  height: 80vh;
+  background-color: #333;
+  margin: 100px auto;
+  position: relative;
+}
+.pop-up {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  text-align: center;
+  color: #aaa;
+  font-size: 20px;
+  visibility: hidden;
+  z-index: 3;
+}
+.pop-up ul {
+  list-style: none;
+}
+.pop-up ul a {
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.close {
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  line-height: 2.4;
+  border-radius: 50px;
+  color: yellow;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 30px;
+  background-color: #a5f211;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 1000px;
+  z-index: 1;
+}
